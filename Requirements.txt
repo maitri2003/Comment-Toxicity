@@ -6,7 +6,4 @@ joblib
 streamlit
 emoji
 regex
-matplotlib
-seaborn
-scipy
 
