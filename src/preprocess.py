@@ -3,6 +3,16 @@ import emoji
 import regex as re2
 from nltk.corpus import stopwords
 
+import nltk
+from nltk.corpus import stopwords
+
+# Ensure stopwords are downloaded
+try:
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords")
+
+
 STOP = set(stopwords.words("english"))
 
 URL_RE = re.compile(r"https?://\S+|www\.\S+")
