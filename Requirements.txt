@@ -6,6 +6,7 @@ joblib
 streamlit
 emoji
 regex
-matplotlib   # optional, for plots
-seaborn      # optional, for plots
-scipy        # usually auto-installed with sklearn
+matplotlib
+seaborn
+scipy
+
