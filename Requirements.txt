@@ -1,9 +1,8 @@
+streamlit
 pandas
 numpy
-scikit-learn>=1.3
-nltk
+scikit-learn
 joblib
-streamlit
+nltk
 emoji
 regex
-
