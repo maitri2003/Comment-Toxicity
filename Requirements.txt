@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn>=1.3
+nltk
+joblib
+streamlit
+emoji
+regex
+matplotlib   # optional, for plots
+seaborn      # optional, for plots
+scipy        # usually auto-installed with sklearn
